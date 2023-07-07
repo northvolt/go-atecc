@@ -13,10 +13,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/northvolt/go-atecc/atecc"
+	"github.com/northvolt/go-atecc"
 	"github.com/peterbourgon/ff/v3/ffcli"
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/host"
+	"periph.io/x/conn/v3/i2c/i2creg"
+	"periph.io/x/host/v3"
 )
 
 const (

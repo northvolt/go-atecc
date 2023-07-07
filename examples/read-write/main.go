@@ -8,10 +8,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/northvolt/go-atecc/atecc"
-	"github.com/northvolt/go-atecc/atecc/ateccconf"
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/host"
+	"github.com/northvolt/go-atecc"
+	"github.com/northvolt/go-atecc/ateccconf"
+	"periph.io/x/conn/v3/i2c/i2creg"
+	"periph.io/x/host/v3"
 )
 
 type ReadWriteConfig struct {

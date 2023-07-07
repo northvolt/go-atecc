@@ -6,8 +6,8 @@ import (
 	"errors"
 	"time"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/i2c"
+	"periph.io/x/conn/v3"
+	"periph.io/x/conn/v3/i2c"
 )
 
 // NewI2CDev returns an object that communicates over I²C to ATECC608A.

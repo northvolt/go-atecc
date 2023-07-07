@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/northvolt/go-atecc/atecc/ateccconf"
+	"github.com/northvolt/go-atecc/ateccconf"
 )
 
 // DeviceType represents a physical device type.
