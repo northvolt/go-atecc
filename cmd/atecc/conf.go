@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/northvolt/go-atecc"
-	"github.com/northvolt/go-atecc/ateccconf"
+	"github.com/northvolt/go-atecc/pkg/ateccconf"
 	"github.com/peterbourgon/ff/v3/ffcli"
 )
 
