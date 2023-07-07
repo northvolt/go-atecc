@@ -1,0 +1,557 @@
+{
+ "sn03": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "revision": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "sn48": [
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "aes_enable": {
+  "enabled": true,
+  "reserved": 6
+ },
+ "i2c_enable": {
+  "enabled": false,
+  "reserved": 7
+ },
+ "reserved15": 15,
+ "i2c_address": 106,
+ "reserved17": 0,
+ "count_match": {
+  "enabled": false,
+  "reserved": 0,
+  "key": 0
+ },
+ "chip_mode": {
+  "user_extra_add": true,
+  "ttl_enabled": false,
+  "watchdog_duration": false,
+  "clock_divider": "m0"
+ },
+ "slot_config": [
+  {
+   "read_key": 5,
+   "no_mac": false,
+   "limited_use": false,
+   "encrypt_read": false,
+   "is_secret": true,
+   "write_key": 0,
+   "write_config": {
+    "unknown": false,
+    "gen_key_enabled": false,
+    "unknown2": 0
+   }
+  },
+  {
+   "read_key": 2,
+   "no_mac": false,
+   "limited_use": false,
+   "encrypt_read": false,
+   "is_secret": true,
+   "write_key": 0,
+   "write_config": {
+    "unknown": false,
+    "gen_key_enabled": false,
+    "unknown2": 0
+   }
+  },
+  {
+   "read_key": 5,
+   "no_mac": false,
+   "limited_use": false,
+   "encrypt_read": false,
+   "is_secret": true,
+   "write_key": 0,
+   "write_config": {
+    "unknown": false,
+    "gen_key_enabled": true,
+    "unknown2": 0
+   }
+  },
+  {
+   "read_key": 5,
+   "no_mac": false,
+   "limited_use": false,
+   "encrypt_read": false,
+   "is_secret": true,
+   "write_key": 0,
+   "write_config": {
+    "unknown": false,
+    "gen_key_enabled": true,
+    "unknown2": 0
+   }
+  },
+  {
+   "read_key": 5,
+   "no_mac": false,
+   "limited_use": false,
+   "encrypt_read": false,
+   "is_secret": true,
+   "write_key": 0,
+   "write_config": {
+    "unknown": false,
+    "gen_key_enabled": true,
+    "unknown2": 0
+   }
+  },
+  {
+   "read_key": 6,
+   "no_mac": false,
+   "limited_use": false,
+   "encrypt_read": true,
+   "is_secret": true,
+   "write_key": 6,
+   "write_config": {
+    "unknown": false,
+    "gen_key_enabled": false,
+    "unknown2": 1
+   }
+  },
+  {
+   "read_key": 15,
+   "no_mac": false,
+   "limited_use": false,
+   "encrypt_read": false,
+   "is_secret": true,
+   "write_key": 15,
+   "write_config": {
+    "unknown": false,
+    "gen_key_enabled": false,
+    "unknown2": 0
+   }
+  },
+  {
+   "read_key": 15,
+   "no_mac": true,
+   "limited_use": false,
+   "encrypt_read": false,
+   "is_secret": true,
+   "write_key": 15,
+   "write_config": {
+    "unknown": false,
+    "gen_key_enabled": false,
+    "unknown2": 2
+   }
+  },
+  {
+   "read_key": 15,
+   "no_mac": false,
+   "limited_use": false,
+   "encrypt_read": false,
+   "is_secret": false,
+   "write_key": 15,
+   "write_config": {
+    "unknown": false,
+    "gen_key_enabled": false,
+    "unknown2": 0
+   }
+  },
+  {
+   "read_key": 15,
+   "no_mac": false,
+   "limited_use": false,
+   "encrypt_read": false,
+   "is_secret": true,
+   "write_key": 15,
+   "write_config": {
+    "unknown": false,
+    "gen_key_enabled": false,
+    "unknown2": 0
+   }
+  },
+  {
+   "read_key": 15,
+   "no_mac": false,
+   "limited_use": false,
+   "encrypt_read": false,
+   "is_secret": false,
+   "write_key": 15,
+   "write_config": {
+    "unknown": false,
+    "gen_key_enabled": false,
+    "unknown2": 0
+   }
+  },
+  {
+   "read_key": 15,
+   "no_mac": false,
+   "limited_use": false,
+   "encrypt_read": false,
+   "is_secret": false,
+   "write_key": 15,
+   "write_config": {
+    "unknown": false,
+    "gen_key_enabled": false,
+    "unknown2": 0
+   }
+  },
+  {
+   "read_key": 15,
+   "no_mac": false,
+   "limited_use": false,
+   "encrypt_read": false,
+   "is_secret": false,
+   "write_key": 15,
+   "write_config": {
+    "unknown": false,
+    "gen_key_enabled": false,
+    "unknown2": 0
+   }
+  },
+  {
+   "read_key": 15,
+   "no_mac": false,
+   "limited_use": false,
+   "encrypt_read": false,
+   "is_secret": false,
+   "write_key": 15,
+   "write_config": {
+    "unknown": false,
+    "gen_key_enabled": false,
+    "unknown2": 0
+   }
+  },
+  {
+   "read_key": 13,
+   "no_mac": false,
+   "limited_use": false,
+   "encrypt_read": false,
+   "is_secret": false,
+   "write_key": 15,
+   "write_config": {
+    "unknown": true,
+    "gen_key_enabled": false,
+    "unknown2": 0
+   }
+  },
+  {
+   "read_key": 15,
+   "no_mac": false,
+   "limited_use": false,
+   "encrypt_read": false,
+   "is_secret": false,
+   "write_key": 15,
+   "write_config": {
+    "unknown": false,
+    "gen_key_enabled": false,
+    "unknown2": 0
+   }
+  }
+ ],
+ "counter": [
+  {
+   "value": [
+    255,
+    255,
+    255,
+    255,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "value": [
+    255,
+    255,
+    255,
+    255,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "use_lock": {
+  "use_lock_enable": 0,
+  "use_lock_key": 0
+ },
+ "volatile_key_permission": {
+  "slot": 0,
+  "reserved": 0,
+  "enabled": false
+ },
+ "secure_boot": {
+  "mode": 3,
+  "reserved0": 0,
+  "persistent_enabled": false,
+  "rand_nonce": false,
+  "reserved1": 0,
+  "sig_dig": 7,
+  "public_key": 15
+ },
+ "kdf_iv_loc": 0,
+ "kdf_iv_str": [
+  105,
+  118
+ ],
+ "reserved68": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "user_extra": 0,
+ "user_extra_add": 0,
+ "lock_value": "unlocked",
+ "lock_config": "unlocked",
+ "slot_locked": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false
+ ],
+ "chip_options": {
+  "power_on_self_test": false,
+  "io_protection_key_enabled": true,
+  "kdf_aes_enabled": true,
+  "auto_clear_first_fail": true,
+  "reserved": 0,
+  "ecdh_protection_bits": 0,
+  "kdf_protection_bits": 0,
+  "io_protection_key": 6
+ },
+ "x509_format": [
+  {
+   "public_position": 0,
+   "template_length": 0
+  },
+  {
+   "public_position": 0,
+   "template_length": 0
+  },
+  {
+   "public_position": 0,
+   "template_length": 0
+  },
+  {
+   "public_position": 0,
+   "template_length": 0
+  }
+ ],
+ "key_config": [
+  {
+   "private": true,
+   "pub_info": true,
+   "key_type": "private",
+   "lockable": false,
+   "require_random": true,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  },
+  {
+   "private": true,
+   "pub_info": true,
+   "key_type": "private",
+   "lockable": false,
+   "require_random": true,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  },
+  {
+   "private": true,
+   "pub_info": true,
+   "key_type": "private",
+   "lockable": true,
+   "require_random": true,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  },
+  {
+   "private": true,
+   "pub_info": true,
+   "key_type": "private",
+   "lockable": true,
+   "require_random": true,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  },
+  {
+   "private": true,
+   "pub_info": true,
+   "key_type": "private",
+   "lockable": true,
+   "require_random": true,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  },
+  {
+   "private": false,
+   "pub_info": false,
+   "key_type": "aes",
+   "lockable": true,
+   "require_random": false,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  },
+  {
+   "private": false,
+   "pub_info": false,
+   "key_type": "other",
+   "lockable": true,
+   "require_random": true,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  },
+  {
+   "private": false,
+   "pub_info": false,
+   "key_type": "other",
+   "lockable": false,
+   "require_random": false,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  },
+  {
+   "private": false,
+   "pub_info": false,
+   "key_type": "other",
+   "lockable": true,
+   "require_random": false,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  },
+  {
+   "private": false,
+   "pub_info": true,
+   "key_type": "aes",
+   "lockable": false,
+   "require_random": false,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  },
+  {
+   "private": false,
+   "pub_info": false,
+   "key_type": "other",
+   "lockable": true,
+   "require_random": false,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  },
+  {
+   "private": false,
+   "pub_info": false,
+   "key_type": "private",
+   "lockable": true,
+   "require_random": false,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  },
+  {
+   "private": false,
+   "pub_info": false,
+   "key_type": "other",
+   "lockable": true,
+   "require_random": false,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  },
+  {
+   "private": false,
+   "pub_info": false,
+   "key_type": "private",
+   "lockable": true,
+   "require_random": false,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  },
+  {
+   "private": false,
+   "pub_info": true,
+   "key_type": "private",
+   "lockable": false,
+   "require_random": false,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  },
+  {
+   "private": false,
+   "pub_info": false,
+   "key_type": "private",
+   "lockable": true,
+   "require_random": false,
+   "require_auth": false,
+   "auth_key": 0,
+   "persistent_disable": false,
+   "rfu": false,
+   "x509_id": 0
+  }
+ ]
+}
