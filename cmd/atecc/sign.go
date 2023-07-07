@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/northvolt/go-atecc/atecc"
+	"github.com/northvolt/go-atecc/pkg/atecc"
 	"github.com/peterbourgon/ff/v3/ffcli"
 )
 
