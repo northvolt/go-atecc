@@ -9,10 +9,16 @@ import (
 	"github.com/karalabe/usb"
 )
 
+// ErrUSBNotSupported is returned when the USB support is missing.
+//
+// When building, CGO is required for USB support. If CGO is not enabled, the
+// HID interface will not be available.
+var ErrUSBNotSupported = errors.New("atecc: usb support is missing")
+
 // NewHIDDev returns an object that communicates over HID.
 func NewHIDDev(ctx context.Context, cfg IfaceConfig) (*Dev, io.Closer, error) {
 	if !usb.Supported() {
-		return nil, nil, errors.New("atecc: hid is not supported")
+		return nil, nil, ErrUSBNotSupported
 	}
 
 	deviceInfos, err := usb.EnumerateHid(cfg.HID.VendorID, cfg.HID.ProductID)
