@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+name: release
+concurrency: release
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: googleapis/release-please-action@v4
+        with:
+          release-type: go
